@@ -14,10 +14,20 @@ namespace ThemeParkManager
             Name = name;
             Description = description;  
         }
+        
+        public static List<ThemePark> ThemeParks = new List<ThemePark>();
+        public static List<Rides> rides = new List<Rides>();
         public string Name { get; set; }
         public string Description { get; set; }
         
-        List<Rides> rides = new List<Rides>();
+        public static void CreatePark()
+        {
+            string name = Console.ReadLine();
+            string description = Console.ReadLine();   
+            ThemePark newPark = new ThemePark(name, description);
+            ThemeParks.Add(newPark);
+        }
         
     }
+
 }

@@ -47,7 +47,7 @@
 
                     break;
                 case "2":
-
+                    ThemePark.CreatePark();
                     break;
                 default:
                     Console.WriteLine("Invaild entry, please try again.");
