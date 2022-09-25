@@ -1,0 +1,15 @@
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\bin\Debug\net6.0\ThemeParkManager.exe
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\bin\Debug\net6.0\ThemeParkManager.deps.json
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\bin\Debug\net6.0\ThemeParkManager.runtimeconfig.json
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\bin\Debug\net6.0\ThemeParkManager.dll
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\bin\Debug\net6.0\ThemeParkManager.pdb
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.csproj.AssemblyReference.cache
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.AssemblyInfoInputs.cache
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.AssemblyInfo.cs
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.csproj.CoreCompileInputs.cache
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.dll
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\refint\ThemeParkManager.dll
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.pdb
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ThemeParkManager.genruntimeconfig.cache
+C:\Users\austi\Desktop\C# Code\ThemeParkManager\obj\Debug\net6.0\ref\ThemeParkManager.dll
