@@ -2,13 +2,16 @@
 {
     public class Program
     {
-        
+        public static bool appIsRunning = true;
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            ThemeParkIntroduction();
-            MainMenu();
-            
+            do
+            {
+                ThemeParkIntroduction();
+                MainMenu();
+            }
+            while (appIsRunning);
         }
         private static void ThemeParkIntroduction()
         {
@@ -34,8 +37,9 @@
             Console.WriteLine("Where would you like to begin?");  
             Console.WriteLine("Please enter your selection (E.g. 1, 2, 3 etc.) Then press your enter key.");
             Console.WriteLine();
-            Console.WriteLine("1. Load existing Park");
-            Console.WriteLine("2. Create a New Theme Park");
+            Console.WriteLine("1. Create a New Theme Park");
+            Console.WriteLine("2. Load an Existing Park");
+            Console.WriteLine("3. Exit the application");
             MainMenuSelection();
         }
         private static void MainMenuSelection()
@@ -44,10 +48,13 @@
             switch (userSelection)
             {
                 case "1":
-
+                    ThemePark.CreatePark();
                     break;
                 case "2":
-                    ThemePark.CreatePark();
+                    
+                    break;
+                case "3":
+                    appIsRunning = false;
                     break;
                 default:
                     Console.WriteLine("Invaild entry, please try again.");
